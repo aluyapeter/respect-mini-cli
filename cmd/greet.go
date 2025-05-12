@@ -13,8 +13,8 @@ var shout bool
 // greetCmd represents the greet command
 var greetCmd = &cobra.Command{
 	Use:   "greet",
-	Short: "Respect CLI for multiple purposes",
-	Long: `Respect CLI was created for learning purpose and also as a guide for my 'Using Cobra in Go' beginner's article I'm working on`,
+	Short: "Greet the user",
+	Long: "This command is used to greet the user",
 
 	Run: func(cmd *cobra.Command, args []string) {
 		if name == "" {
