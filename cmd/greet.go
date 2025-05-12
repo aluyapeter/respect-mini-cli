@@ -13,8 +13,7 @@ var shout bool
 // greetCmd represents the greet command
 var greetCmd = &cobra.Command{
 	Use:   "greet",
-	Short: "Greet the user",
-	Long: "This command is used to greet the user",
+	Short: "Prints a greeting message",
 
 	Run: func(cmd *cobra.Command, args []string) {
 		if name == "" {
